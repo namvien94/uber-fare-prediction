@@ -32,8 +32,6 @@ Pickup and drop-off coordinates contributed predictive information beyond distan
 
 Use trip origin and destination characteristics alongside distance when estimating fares rather than assuming trips of similar distances should receive identical estimates.
 
-![Pickup Location Heatmap](https://github.com/namvien94/uber-fare-prediction/blob/main/images/pickup-location-heatmap.png?raw=true)
-
 ### 3. Use nonlinear models for fare prediction
 
 LightGBM, XGBoost, and Gradient Boosting outperformed Linear, Ridge, and Lasso Regression, with **LightGBM producing the strongest baseline performance at 3.766 RMSE**.
@@ -50,8 +48,6 @@ For this dataset, prioritize boosting-based models over basic linear approaches 
 | Linear Regression | 5.1082 |
 | Lasso Regression | 5.3102 |
 | Decision Tree | 6.2858 |
-
-![Model RMSE Comparison](https://github.com/namvien94/uber-fare-prediction/blob/main/images/model-rmse-comparison.png?raw=true)
 
 ### 4. Keep the predictive feature set focused
 
@@ -74,4 +70,4 @@ Prioritize features that contribute measurable predictive value rather than auto
 - **Machine Learning:** Compared Linear, Ridge, Lasso, Decision Tree, Random Forest, Gradient Boosting, XGBoost, and LightGBM regression models using RMSE.
 - **Model Optimization:** Evaluated feature importance, performed feature selection, and tuned LightGBM hyperparameters to improve test RMSE from 3.766 to approximately 3.717.
 - **Visualization:** Used Matplotlib, Seaborn, and Folium to analyze feature relationships, model importance, temporal patterns, and geographic trip distributions.
-- **Tools:** Python, Pandas, NumPy, scikit-learn, XGBoost, LightGBM, Matplotlib, Seaborn, Folium
+- **Tools:** Python, Pandas, NumPy, scikit-learn, XGBoost, LightGBM, Matplotlib, Seaborn, Folium, Google Colab
