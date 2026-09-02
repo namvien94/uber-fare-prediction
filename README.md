@@ -16,11 +16,9 @@ Trip distance emerged as the **dominant predictor of fare**, while pickup/drop-o
 
 Boosting models also substantially outperformed linear approaches, indicating that fare behavior contains nonlinear relationships that simpler models do not capture as effectively.
 
-![XGBoost Feature Importance](https://github.com/namvien94/uber-fare-prediction/blob/main/images/xgboost-feature-importance.png?raw=true)
-
 ## Recommended Actions
 
-### 1. Prioritize trip distance in upfront fare estimation
+### 1. Use Trip Distance as the Primary Fare Predictor
 
 Trip distance was the strongest predictive feature in the analysis.
 
